@@ -36,8 +36,11 @@
 - Names, email, organisation do not have to be real just fill in anything for testing
 - Enter password (must be at least 6 characters long)
 
+#### Connect daat source    
+> **to do**
+
 #### Add data
-- to do  
+> **to do**
 
 ## Stopping the service    
     
