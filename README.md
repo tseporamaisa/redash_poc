@@ -48,7 +48,7 @@
 ```bash
    bash setup.sh stop 
 ```    
-### stop service with clean-up   
+### stop service and clean-up   
 ```bash
    bash setup.sh cleanup
 ```
