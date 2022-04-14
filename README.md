@@ -1,4 +1,5 @@
 ## Running service locally
+---
 
 ### Prerequisites
 
@@ -26,23 +27,38 @@
    bash setup.sh start
 ```
 
-> **_Note:_** above comand runs redash on http://127.0.0.1:8080    
+> **_Note:_** above comand runs redash on http://127.0.0.1:8080       
+   
 
-### Setup
 
-#### Setup Admin user
+## Initial Setup
+---   
+
+### Setup Admin user
 
 - In your browser go to http://127.0.0.1:8080 
 - Names, email, organisation do not have to be real just fill in anything for testing
 - Enter password (must be at least 6 characters long)
 
-#### Connect data source    
-> **to do**
+### Connect data source    
+The deploymennt includes a sample database for testing, however you will have to manually connect to it.
+In the Dashboards home screen click on "Connect a Dats Source" and under type select PostgreSQL. Configure the connection with the following settings:  
 
-#### Add data
-> **to do**
+- Name: sample db
+- Host: postgres
+- Port: 5432
+- User: postgres
+- Password: redash
+- Database Name: dvdrental    
+   
+Save the settings and test connection. you should get a "Success" massage
 
-## Stopping the service    
+### Sample database ERD     
+
+![ERD](./redash/dvd-rental-sample-database-diagram.png?raw=true)  
+
+## Stopping the service
+---   
     
 ### stop service without clean-up   
 ```bash

@@ -4,7 +4,8 @@ COMMAND="$1"
 
 if [[ $COMMAND == "start" ]]; then
   docker-compose run --rm server create_db
-  docker-compose up -d
+  docker exec redash_postgres bash /var/load_sample_data.sh 
+  docker-compose up --force-recreate -d
   echo "redash now running at 127.0.0.1:8080"
 elif [[ $COMMAND == "stop" ]]; then
   docker-compose down
