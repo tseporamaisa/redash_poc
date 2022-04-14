@@ -42,7 +42,7 @@
 
 ### Connect data source    
 The deploymennt includes a sample database for testing, however you will have to manually connect to it.
-In the Dashboards home screen click on "Connect a Dats Source" and under type select PostgreSQL. Configure the connection with the following settings:  
+In the Dashboards home screen click on "Connect a Data Source". Under type, select PostgreSQL as your source. Configure the connection with the following settings:  
 
 - Name: sample db
 - Host: postgres
@@ -51,7 +51,7 @@ In the Dashboards home screen click on "Connect a Dats Source" and under type se
 - Password: redash
 - Database Name: dvdrental    
    
-Save the settings and test connection. you should get a "Success" massage
+clisk create and test the connection. you should get a "Success" massage
 
 ### Sample database ERD     
 
@@ -59,7 +59,8 @@ Save the settings and test connection. you should get a "Success" massage
     
 ## Useful links   
 ---    
-- [Getting started with redash guide](https://redash.io/help/user-guide/getting-started)   
+- [Getting started with redash guide](https://redash.io/help/user-guide/getting-started)    
+- [Creating dashboards guide](https://redash.io/help/user-guide/dashboards)
 - [Intro video with walk through](https://www.youtube.com/watch?v=U32yv9e9HOI&t=419s)
 
 ## Stopping the service
