@@ -55,7 +55,12 @@ Save the settings and test connection. you should get a "Success" massage
 
 ### Sample database ERD     
 
-![ERD](./redash/dvd-rental-sample-database-diagram.png?raw=true)  
+![ERD](./redash/dvd-rental-sample-database-diagram.png?raw=true)     
+    
+## Useful links   
+---    
+- [Getting started with redash guide](https://redash.io/help/user-guide/getting-started)   
+- [Intro video with walk through](https://www.youtube.com/watch?v=U32yv9e9HOI&t=419s)
 
 ## Stopping the service
 ---   
